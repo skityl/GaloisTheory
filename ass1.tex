@@ -51,11 +51,35 @@ define
 \begin{equation*}
     \sigma_\lambda: K_{a,n}\rightarrow K_{a,n}
 \end{equation*}
-by $\sigma_{\lambda}(\sqrt[n]{a}) = \zeta_n^\lambda \sqrt[n]{a}$
-and $\sigma_\lambda(1) = 1$.
+by $\sigma_{\lambda}(f(\sqrt[n]{a})) = f(\zeta_n^\lambda \sqrt[n]{a})$
+for any polynomial $f \in k[x]$.
 \begin{theorem}
     $\sigma_\lambda$ is a field automorphism on $K_{a,n}$.
 \end{theorem}
+\begin{proof}
+    First since any $x \in K_{a,n}$
+    can be written uniquely as a sum
+    \begin{equation*}
+        x = b_0 + b_1\sqrt[n]{a}+b_2\sqrt[n]{a^2} + \cdots + b_{n-1}\sqrt[n]{a^{n-1}},
+    \end{equation*}
+    for $b_i \in k$, then $\sigma_\lambda(x)$ is given by
+    \begin{equation*}
+        \sigma_\lambda(x) = b_0 + b_1\sqrt[n]{a}\zeta_n^\lambda+b_2\sqrt[n]{a^2}\zeta_n^{2\lambda}+\cdots+b_{n-1}\sqrt[n]{a^{n-1}}\zeta_n^{\lambda(n-1)}.
+    \end{equation*}
+    
+    Suppose that $f(\sqrt[n]{a}),g(\sqrt[n]{a}) \in K_{a,n}$. Then,
+    \begin{align*}
+        \sigma_{\lambda}(f(\sqrt[n]{a})+g(\sqrt[n]{a}) &= \sigma_\lambda((f+g)(\sqrt[n]{a}))\\
+        &= (f+g)(\sqrt[n]{a}\zeta_n^\lambda)\\
+        &= f(\sqrt[n]{a}\zeta_n^\lambda) + g(\sqrt[n]{a}\zeta_n^\lambda)\\
+        &= \sigma_\lambda(f(\sqrt[n]{a}))+\sigma_\lambda(g(\sqrt[n]{a})).
+    \end{align*}
+    Hence the function $\sigma_\lambda$ is additive. An identical argument shows that $\sigma_\lambda$
+    is multiplicative.
+    
+    Since for $b \in k$, $\sigma_\lambda(bf(\sqrt[n]{a})) = b\sigma_\lambda(f(\sqrt[n]{a}))
+    
+\end{proof}
 
 \section*{Question 3}
 
