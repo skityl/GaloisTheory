@@ -192,8 +192,8 @@ and the distances between points of $S_n$.
     
     Now suppose $C_1$ and $C_2$ are two circles with centres
     $p = (p_x,p_y),q = (q_x,q_y) \in S_{n-1}$ and radii equal to the lengths of line
-    segments joining points of $S_{n-1}$. Denote the radii
-    by $r_1$ and $r_2$ respectively. The Cartesian equations
+    segements joining points of $S_{n-1}$. Denote the radii
+    by $r_1$ and $r_2$ respectively. The cartesian equations
     for the circles are
     \begin{align*}
         C_1&: (x-p_x)^2+(y-p_y)^2 = r_1^2\\
@@ -208,16 +208,7 @@ and the distances between points of $S_n$.
         (f(a)-q_x)^2+(y-q_y)^2 = r_2^2.
     \end{equation*}
     
-    Hence the solutions will lie in $K_{n-1}(\sqrt{a_1},\sqrt{a_2},\ldots,\sqrt{a_t})$.
-    
-    
-    Now let $l$ passing through distinct points $p,q \in S_{n-1}$ and 
-    $C$ a circle with centre $c \in S_{n-1}$ and radius $r$ equal to 
-    a distance between distinct points of $S_{n-1}$. Then 
-    to find points of intersection $l$ and $C$ we must simultaneously 
-    solve a quadratic equation and a linear equation.
-    Hence the solutions will have roots in $K_{n-1}(\sqrt{a_1},\sqrt{a_2},\ldots,\sqrt{a_t})$.   
-    
+    blah blah AG.
     
 \end{proof}
 

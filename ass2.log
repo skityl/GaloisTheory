@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.2)  16 SEP 2014 18:08
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.2)  17 SEP 2014 14:33
 entering extended mode
  %&-line parsing enabled.
 **ass2.tex
@@ -407,10 +407,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1]
-
-LaTeX Warning: Reference `injection' on page 2 undefined on input line 155.
-
-
 Overfull \hbox (9.04381pt too wide) in paragraph at lines 173--175
 \OT1/cmr/bx/n/10 Theorem 3. \OT1/cmr/m/it/10 For $\OML/cmm/m/it/10 n \OMS/cmsy/
 m/n/10 ^^U \OT1/cmr/m/n/10 1$\OT1/cmr/m/it/10 , $\OML/cmm/m/it/10 K[] \OT1/cmr/
@@ -420,7 +416,7 @@ OT1/cmr/m/n/10 )$ \OT1/cmr/m/it/10 for some $\OML/cmm/m/it/10 a[]; a[]; [] ; a[
  []
 
 [2]
-Overfull \hbox (9.65149pt too wide) detected at line 222
+Overfull \hbox (9.65149pt too wide) detected at line 231
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 K[] \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 K[]\OT
 1/cmr/m/n/10 ] = [\OML/cmm/m/it/10 K[]\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; [] 
 ; [] \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 K[]\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 
@@ -428,39 +424,33 @@ Overfull \hbox (9.65149pt too wide) detected at line 222
 mm/m/it/10 K[]\OT1/cmr/m/n/10 ]\OML/cmm/m/it/10 :
  []
 
-[3] (./ass2.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[3] [4] (./ass2.aux) ) 
 Here is how much of TeX's memory you used:
  3238 strings out of 494818
  42083 string characters out of 1178667
- 106974 words of memory out of 3000000
+ 107982 words of memory out of 3000000
  6337 multiletter control sequences out of 15000+50000
  8752 words of font info for 33 fonts, out of 3000000 for 9000
  212 hyphenation exceptions out of 8191
  48i,11n,45p,310b,263s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-ti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on ass2.pdf (4 pages, 427471 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/shar
+e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols
+/msbm10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm7
+.pfb>
+Output written on ass2.pdf (5 pages, 428743 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
